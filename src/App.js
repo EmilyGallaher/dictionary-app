@@ -4,9 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>
+      <div className="container">
+      <header className="App-header">
         Hello
       </header>
+      <main>
+        <Dictionary />
+
+      </main>
+      <footer className="text-center">Coded by Emily Gallaher</footer>
+    </div>
     </div>
   );
 }
