@@ -1,6 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
-import Phoenetic from "./Phoenetic";
+import Phoenetic from "./Phonetic";
 
 export default function Results(props) {
   if (props.results) {
