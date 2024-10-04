@@ -58,7 +58,7 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
             />
           </form>
-          <small className="hint">i.e. paris, wine, yoga, coding</small>
+          <small className="hint">i.e. coffee, cats, wanderlust...</small>
         </section>
         <Result definition={definition} />
         <Photos photos={photos} />
