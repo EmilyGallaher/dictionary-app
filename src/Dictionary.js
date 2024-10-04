@@ -60,7 +60,7 @@ export default function Dictionary(props) {
           </form>
           <small className="hint">i.e. paris, wine, yoga, coding</small>
         </section>
-        <Results definition={definition} />
+        <Result definition={definition} />
         <Photos photos={photos} />
       </div>
   );
